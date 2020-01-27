@@ -1,0 +1,18 @@
+@import "_colors.scss";
+#footer-container{
+  background-color: $dark-black;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 16px 24px 16px 16px;
+}
+.footer-site-logo .dis-dt {
+  max-width: 360px;
+}
+.footer-site-logo .dis-dt img{
+  height: 56px;
+  width: 90%;
+}
+.footer-navigation-container{
+  width: 100%;
+}
