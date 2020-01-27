@@ -1,3 +1,8 @@
 .pathmazing-way {
   color: inherit;
 }
+
+#pathmazing-way .consult-title{
+  color: var(--primary);
+}
+

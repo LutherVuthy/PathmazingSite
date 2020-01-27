@@ -1,0 +1,37 @@
+#home-banner{
+  color: inherit;
+  background-color: #05415d;
+}
+
+#home-banner .bg-banner {
+  background-image: url(https://pathmazing.com/img/home-banner.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+}
+
+#home-banner .banner-title {
+  background: linear-gradient(to bottom, rgba(8, 8, 8, 0.01), rgba(5, 61, 86, 0.61), #053e59);
+  width: 100%;
+  position: absolute;
+  padding-bottom: 70px;
+  top: 62vh;
+  left: 0;
+  right: 0;
+  color: #fff;
+  height: 180px;
+
+}
+
+.banner-title h1 {
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+}
+
+/*05415d*/

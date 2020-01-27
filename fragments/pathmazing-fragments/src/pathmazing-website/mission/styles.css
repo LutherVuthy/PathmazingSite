@@ -1,3 +1,17 @@
-.mission {
+#pathmazing-mission {
   color: inherit;
+  padding: 60px 0;
+}
+
+
+#pathmazing-mission p {
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+
+
+#pathmazing-mission b.font-bl {
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 1.2em;
 }

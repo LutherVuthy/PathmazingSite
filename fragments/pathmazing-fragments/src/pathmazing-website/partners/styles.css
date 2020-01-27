@@ -1,3 +1,9 @@
-.partners {
+#partners {
   color: inherit;
+  background: #ededee;
+  padding: 50px 0;
+}
+
+#partners .text-path {
+  font-size: 19px;
 }

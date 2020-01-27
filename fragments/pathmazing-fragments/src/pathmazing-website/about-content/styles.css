@@ -1,3 +1,41 @@
-.about-content {
+#about-content {
   color: inherit;
+}
+
+#about-content {
+  color: white;
+  background-color: #012e45;
+  padding: 20px 0;
+}
+
+#about-content h2 {
+  font-size: 24px;
+  padding: 20px 10px;
+  margin: auto;
+  text-align: center;
+  font-weight: 200;
+  max-width: 60%;
+}
+
+#about-content .box-img {
+  padding: 20px;
+  max-width: 300px;
+}
+
+#about-content .box-img img {
+  max-width: 100%;
+}
+
+#about-content .about-img-text {
+  padding: 5% 10%;
+}
+
+#about-content .about-img-text img {
+  width: 135px;
+  height: 120px;
+}
+
+
+#about-content .about-img-text p {
+  font-size: 1.2rem;
 }

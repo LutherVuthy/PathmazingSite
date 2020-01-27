@@ -1,3 +1,17 @@
-.executive-banner {
+#executive-banner {
   color: inherit;
+  background-color: white;
+  height: 100%;
+}
+
+#executive-banner img{
+  max-width: 100%;
+}
+
+#executive-banner h1{
+  font-size: 3em;
+  color: var(--primary);
+  font-weight: 500;
+  margin-top: -20px;
+  margin-bottom: 80px;
 }

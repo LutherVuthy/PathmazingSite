@@ -1,0 +1,29 @@
+/*@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";*/
+
+#pathmazing-contact {
+    background-color: #282c2d;
+    color: white;
+    padding: 30px 0;
+}
+
+#pathmazing-contact p.lead {
+    font-size: 1.5em;
+}
+
+#pathmazing-contact label{
+    color: white;
+}
+
+#pathmazing-contact .contact-location {
+    margin-top: 20px;
+    background-image: url("https://pathmazing.com/img/contact/maps.png");
+    width: 80%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pathmazing-contact .btn-primary {
+    padding: 7px 45px;
+    font-weight: bold;
+}

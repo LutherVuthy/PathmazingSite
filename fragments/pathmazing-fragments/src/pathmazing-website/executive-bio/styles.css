@@ -1,3 +1,11 @@
-.executive-bio {
+#executive-bio {
   color: inherit;
+}
+
+#executive-bio h3{
+  color: var(--primary);
+}
+
+#executive-bio .bio-detail{
+  font-size: 16px;
 }

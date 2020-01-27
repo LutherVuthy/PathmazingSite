@@ -1,0 +1,21 @@
+.home-award {
+  color: inherit;
+}
+
+#home-award {
+  background: url("https://pathmazing.com/img/tesjor-award.png") no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#home-award h1{
+  font-size: 4em;
+}
+
+#home-award p{
+  font-size: 2em;
+}
+
+#home-award .award-content{
+  padding: 10px 0 0 110px;
+}

@@ -1,3 +1,19 @@
 .specialized-tools {
   color: inherit;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+#specialized-tools .border{
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#specialized-tools h3 {
+  color: var(--primary);
+  margin: 1.5rem 0;
+}
+
+#specialized-tools .skill-icon {
+  margin: 5px 5px 0 0;
 }
