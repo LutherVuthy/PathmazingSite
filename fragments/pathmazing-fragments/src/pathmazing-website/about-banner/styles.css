@@ -1,3 +1,21 @@
-.about-banner {
+#about-banner {
   color: inherit;
+  color: inherit;
+  background-image: url("https://pathmazing.com/img/about/about-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#about-banner .about-banner-text h1 {
+  font-size: 3em;
+  color: white;
+  margin-bottom: 25px;
+  font-weight: 500;
 }
