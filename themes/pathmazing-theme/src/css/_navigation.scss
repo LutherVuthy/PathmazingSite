@@ -1,0 +1,20 @@
+@import "navigation/manage_controls";
+@import "navigation/navbar";
+@import "navigation/page";
+@import "navigation/portlet";
+@import "navigation/template_selector";
+@import "_colors.scss";
+
+.navigation-list-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#nav-items{
+  color: $secondary-text-color;
+  font-size: 18px;
+}
+/*
+.selected{
+  text-decoration: underline;
+}*/
