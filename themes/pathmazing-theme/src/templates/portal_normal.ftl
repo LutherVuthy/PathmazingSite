@@ -81,7 +81,7 @@
 		</p>-->
 	</footer>
 </div>
-
+<script src="${javascript_folder}/wow.js"></script>
 <@liferay_util["include"] page=body_bottom_include />
 
 <@liferay_util["include"] page=bottom_include />

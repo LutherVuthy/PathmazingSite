@@ -1,38 +1,41 @@
 AUI().ready(
+    /*
+    This function gets loaded when all the HTML, not including the portlets, is
+    loaded.
+    */
 
-	/*
-	This function gets loaded when all the HTML, not including the portlets, is
-	loaded.
-	*/
+    function () {
 
-	function() {
-	}
+    }
 );
 
 Liferay.Portlet.ready(
+    /*
+    This function gets loaded after each and every portlet on the page.
 
-	/*
-	This function gets loaded after each and every portlet on the page.
+    portletId: the current portlet's id
+    node: the Alloy Node object of the current portlet
+    */
 
-	portletId: the current portlet's id
-	node: the Alloy Node object of the current portlet
-	*/
-
-	function(portletId, node) {
-	}
+    function (portletId, node) {
+    }
 );
 
 Liferay.on(
-	'allPortletsReady',
+    'allPortletsReady',
 
-	/*
-	This function gets loaded when everything, including the portlets, is on
-	the page.
-	*/
+    /*
+    This function gets loaded when everything, including the portlets, is on
+    the page.
+    */
 
-	/*function() {
-	}*/
-	function isInView(elem){
-		return $(elem).offset().top - $(window).scrollTop() < $(elem).height() ;
-	}
+    /*function() {
+    }*/
+    function isInView(elem) {
+        return $(elem).offset().top - $(window).scrollTop() < $(elem).height();
+    }
 );
+
+$(function () {
+    new WOW().init();
+});
