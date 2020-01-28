@@ -1,8 +1,8 @@
 {
+  "type": 0,
+  "name": "Home Hero",
   "cssPath": "styles.css",
-  "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "Mission",
-  "type": 0
+  "configurationPath": "configuration.json"
 }

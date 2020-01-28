@@ -4,5 +4,5 @@
   "htmlPath": "index.html",
   "jsPath": "main.js",
   "name": "Home Banner",
-  "type": "section"
+  "type": 0
 }
