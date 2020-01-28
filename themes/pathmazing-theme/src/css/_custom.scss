@@ -12,16 +12,68 @@
 
 /* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
 
-//Test Change
 body{
   padding: 0;
   margin: 0;
-  #heading{
+  /*Before scroll*/
+  #banner #heading-home{
+    display: flex;
+    flex-direction: row;
+    padding: 24px 12%;
+    align-items: baseline;
+    z-index: 999;
+    width: 100%;
+    background: linear-gradient(to top, rgba(8, 8, 8, 0), rgba(8, 8, 8, 0.62), #080808);
+    height: 211px;
+  }
+  #banner #heading{
     display: flex;
     flex-direction: row;
     background-color: rgba($dark-black,0.7);
     padding: 8px 24px 8px 16px;
     align-items: baseline;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    /*top: 0;
+    left: 300px;*/
+  }
+  #wrapper{
+    margin: 0;
+    padding: 0;
+  }
+  #heading .site-title .dis-dt {
+    max-width: 320px;
+  }
+  #heading-home .site-title .dis-dt{
+    max-width: 620px;
+  }
+  #heading .site-title .dis-dt img {
+    margin: auto 0px;
+    height: 50px;
+    width: 80%;
+  }
+  #heading-home .site-title .dis-dt img{
+    margin: auto 0px;
+    height: 70%;
+    width: 90%;
+  }
+  #banner #heading .site-title, #banner #heading-home .site-title{
+    align-items: baseline;
+  }
+  #banner #heading .navigation-container, #banner #heading-home .navigation-container{
+    width: 100%;
+  }
+  /*After scroll*/
+  /*#banner #heading{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba($dark-black,0.7);
+    padding: 8px 24px 8px 16px;
+    align-items: baseline;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
   }
   #wrapper{
     margin: 0;
@@ -35,10 +87,10 @@ body{
     height: 50px;
     width: 80%;
   }
-  .site-title{
+  #banner #heading .site-title{
     align-items: baseline;
   }
-  .navigation-container{
+  #banner #heading .navigation-container{
     width: 100%;
-  }
+  }*/
 }
