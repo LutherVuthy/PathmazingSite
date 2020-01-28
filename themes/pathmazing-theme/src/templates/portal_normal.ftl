@@ -22,10 +22,18 @@
 
 <div class="container-fluid" id="wrapper">
 	<header id="banner" role="banner">
-		<div id="heading">
+		<#assign current_page = "${the_title}"/>
+		<#if current_page == "Home">
+			<#assign header_container = "heading-home"/>
+		<#else>
+			<#assign
+				header_container = "heading"
+			/>
+		</#if>
+		<div id="${header_container}" class="${header_container}">
 			<div class="site-title">
-				<a class="${logo_css_class} dis-dt" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
-					<img alt="${logo_description}" height="${site_logo_height}" src="${pathmazing_site_log_desktop}" width="${site_logo_width}" />
+				<a class="${logo_css_class} dis-dt" id="site-logo-container" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
+					<img id="site-logo" alt="${logo_description}" height="${site_logo_height}" src="${pathmazing_site_log_desktop}" width="${site_logo_width}" />
 				</a>
 				<#--<a class="${logo_css_class} dis-mobile" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
 					<img alt="${logo_description}" height="${site_logo_height}" src="${pathmazing_site_log}" width="${site_logo_width}" />
@@ -42,6 +50,7 @@
                     <#include "${full_templates_path}/navigation.ftl" />
                 </#if>
             </div>
+			<#--<p>${the_title}</p>-->
 		</div>
 
 		<#--<#if !is_signed_in>
@@ -72,7 +81,7 @@
 		</p>-->
 	</footer>
 </div>
-
+<script src="${javascript_folder}/wow.js"></script>
 <@liferay_util["include"] page=body_bottom_include />
 
 <@liferay_util["include"] page=bottom_include />
