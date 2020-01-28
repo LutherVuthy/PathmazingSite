@@ -28,7 +28,7 @@ body{
     from {padding: 24px 12%}
     to {padding: 0 11%}
   }*/
-  @media only screen and (max-width: 1023px) {
+  @media (min-width: 500px) and (max-width: 1023px) {
     #banner #heading-home{
       display: flex;
       flex-direction: row;

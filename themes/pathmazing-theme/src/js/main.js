@@ -34,6 +34,18 @@ Liferay.on(
 		var heading = document.getElementById('heading-home').style;
 		var site_logo_container = document.getElementById('site-logo-container').style;
 		var site_logo = document.getElementById('site-logo').style;
+
+		/*$(window).on("resize", function(event){
+			if($(window).scrollTop() < 100){
+				if($(this).width() > 1010){
+					heading.padding = '24px 12%';
+				} else {
+					heading.padding = '32px 24px';
+				}
+				console.log($(this).width());
+			}
+		});*/
+
 		$(window).scroll(function(){
 			if($(window).scrollTop() > 100){
 				heading.display = 'flex';
@@ -56,23 +68,23 @@ Liferay.on(
 				site_logo.height = '70%';
 				site_logo.width = '90%';
 
-				/*heading.webkitAnimationName = 'animateToTop'; /!* Safari 4.0 - 8.0 *!/
-				heading.webkitAnimationDuration = '0.3s'; /!* Safari 4.0 - 8.0 *!/
-				heading.animationName = 'animateToTop';
-				heading.animationDuration = '0.3s';*/
-
 				site_logo_container.maxWidth = '620px';
 
 				heading.display = 'flex';
 				heading.flexDirection = 'row';
-				heading.padding = '24px 12%';
+				// heading.padding = '24px 12%';
 				heading.alignItems = 'baseline';
 				heading.zIndex = '999';
 				heading.width = '100%';
 				heading.background  = 'linear-gradient(to top, rgba(8, 8, 8, 0), rgba(8, 8, 8, 0.62), #080808)';
 				heading.height  = '211px';
-			}
-		})
 
+				/*if($(this).width() > 1010){
+					heading.padding = '24px 12%';
+				} else {
+					heading.padding = '32px 24px';
+				}*/
+			}
+		});
 	}
 );
