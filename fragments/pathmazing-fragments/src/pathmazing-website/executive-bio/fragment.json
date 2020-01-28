@@ -4,5 +4,5 @@
   "htmlPath": "index.html",
   "jsPath": "main.js",
   "name": "Executive Bio",
-  "type": "component"
+  "type": 1
 }
