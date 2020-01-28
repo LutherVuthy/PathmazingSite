@@ -30,10 +30,10 @@
 				header_container = "heading"
 			/>
 		</#if>
-		<div id="${header_container}">
+		<div id="${header_container}" class="${header_container}">
 			<div class="site-title">
-				<a class="${logo_css_class} dis-dt" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
-					<img alt="${logo_description}" height="${site_logo_height}" src="${pathmazing_site_log_desktop}" width="${site_logo_width}" />
+				<a class="${logo_css_class} dis-dt" id="site-logo-container" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
+					<img id="site-logo" alt="${logo_description}" height="${site_logo_height}" src="${pathmazing_site_log_desktop}" width="${site_logo_width}" />
 				</a>
 				<#--<a class="${logo_css_class} dis-mobile" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
 					<img alt="${logo_description}" height="${site_logo_height}" src="${pathmazing_site_log}" width="${site_logo_width}" />

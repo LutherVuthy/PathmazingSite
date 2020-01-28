@@ -17,6 +17,44 @@ body{
   margin: 0;
   /*Before scroll*/
   #banner #heading-home{
+    -webkit-transition: padding 0.3s, height 0.3s;
+    transition: padding 0.3s, height 0.3s;
+  }
+  /*@-webkit-keyframes animateToTop {
+    from {padding: 24px 12%}
+    to {padding: 0 11%}
+  }
+  @keyframes animateToTop {
+    from {padding: 24px 12%}
+    to {padding: 0 11%}
+  }*/
+  @media only screen and (max-width: 1023px) {
+    #banner #heading-home{
+      display: flex;
+      flex-direction: row;
+      padding: 32px 24px;
+      align-items: baseline;
+      z-index: 999;
+      width: 100%;
+      background: linear-gradient(to top, rgba(8, 8, 8, 0), rgba(8, 8, 8, 0.62), #080808);
+      height: 211px;
+      position: fixed;
+    }
+  }
+  @media only screen and (min-width: 1023px) {
+    #banner #heading-home{
+      display: flex;
+      flex-direction: row;
+      padding: 24px 12%;
+      align-items: baseline;
+      z-index: 999;
+      width: 100%;
+      background: linear-gradient(to top, rgba(8, 8, 8, 0), rgba(8, 8, 8, 0.62), #080808);
+      height: 211px;
+      position: fixed;
+    }
+  }
+  /*#banner #heading-home{
     display: flex;
     flex-direction: row;
     padding: 24px 12%;
@@ -25,7 +63,8 @@ body{
     width: 100%;
     background: linear-gradient(to top, rgba(8, 8, 8, 0), rgba(8, 8, 8, 0.62), #080808);
     height: 211px;
-  }
+    position: fixed;
+  }*/
   #banner #heading{
     display: flex;
     flex-direction: row;
@@ -48,11 +87,16 @@ body{
   #heading-home .site-title .dis-dt{
     max-width: 620px;
   }
+  /*#heading .site-title .dis-dt img{
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+  }*/
   #heading .site-title .dis-dt img {
     margin: auto 0px;
     height: 50px;
     width: 80%;
   }
+
   #heading-home .site-title .dis-dt img{
     margin: auto 0px;
     height: 70%;
