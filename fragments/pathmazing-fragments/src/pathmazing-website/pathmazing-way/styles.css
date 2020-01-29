@@ -2,7 +2,27 @@
   color: inherit;
 }
 
-#pathmazing-way .consult-title{
+#pathmazing-way .consult-title {
   color: var(--primary);
+  font-weight: bold;
 }
 
+h2.consult-title {
+  font-size: 24px;
+}
+
+#pathmazing-way .feature-img {
+  border: 1px solid #ccc;
+  overflow: hidden;
+  text-align: center;
+}
+
+.feature-img img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+#pathmazing-way .cod-icon {
+  width: 28px;
+  margin-top: 6px;
+}

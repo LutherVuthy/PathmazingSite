@@ -1,10 +1,9 @@
 .specialized-tools {
   color: inherit;
-  margin-top: 20px;
-  margin-bottom: 80px;
+  margin: 3% 0;
 }
 
-#specialized-tools .border{
+#specialized-tools .border {
   padding-top: 5px;
   padding-bottom: 10px;
 }
