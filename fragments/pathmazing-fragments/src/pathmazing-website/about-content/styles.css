@@ -1,20 +1,10 @@
-#about-title-02{
-  color: #eceff1;
-  font-size: 19px;
-  max-width: 80%;
-  margin: auto;
-  padding-top: 0px;
-  position: relative;
-  text-transform: uppercase;
-}
 .about-content{
-  background-color: #012e45;
+  background-color: var(--primary-dark);
   position: relative;
 }
 
 .text-who{
-  color: #eceff1;
-  /*padding-bottom: 6%;*/
+  color: var(--secondary-text-color);
   font-size: 19px;
   max-width: 80%;
   margin: auto;
@@ -25,7 +15,7 @@
 
 .about-title{
   font-size: 46px;
-  color: #fff;
+  color:var(--white);
   font-weight: bold;
   text-align: center;
   padding: 0;
@@ -34,7 +24,6 @@
   right: 0;
   top: -140px;
 }
-
 #about-content h2 {
   font-size: 24px;
   padding: 20px 10px;
@@ -74,13 +63,20 @@
 #about-who .main-abt-who .contain-wh .abt-img-txt .blk-text {
   max-width: 66%;
   margin-left: 10px;
+
+}
+
+.animation{
+  visibility: visible;
+  animation-delay: 0.2s;
+  animation-name: fadeInUp;
 }
 
 @media only screen and (max-width: 767px){
   .text-who{
     margin-bottom: 30px;
     font-size: 13px;
-    padding-top: 10px;
+    padding-top: 45px;
   }
   .about-title{
     font-size: 30px;
