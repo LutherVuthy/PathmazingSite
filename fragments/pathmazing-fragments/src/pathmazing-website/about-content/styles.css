@@ -1,4 +1,12 @@
-
+#about-title-02{
+  color: #eceff1;
+  font-size: 19px;
+  max-width: 80%;
+  margin: auto;
+  padding-top: 0px;
+  position: relative;
+  text-transform: uppercase;
+}
 .about-content{
   background-color: #012e45;
   position: relative;
@@ -6,7 +14,7 @@
 
 .text-who{
   color: #eceff1;
-  padding-bottom: 6%;
+  /*padding-bottom: 6%;*/
   font-size: 19px;
   max-width: 80%;
   margin: auto;
@@ -76,7 +84,7 @@
   }
   .about-title{
     font-size: 30px;
-    top: -40px;
+    top: -15px;
   }
   #about-content .about-img-text img {
     width: 75px;
