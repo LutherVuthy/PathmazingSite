@@ -27,3 +27,9 @@
     padding: 7px 45px;
     font-weight: bold;
 }
+
+.animate{
+    visibility: visible;
+    animation-delay: 0.2s;
+    animation-name: fadeInUp;"
+}

@@ -8,64 +8,69 @@ export default class extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-sm-12 px-5">
-                            <p className="lead">
+                            <p className="lead wow fadeInUp animate" data-wow-delay="0.2s">
                                 Let Us Help You Realize Your Mobile and Web Solutions Today
                             </p>
                             <form action="#" name="pathmazing-contact-form">
-                                <div className="form-group">
+                                <div className="form-group  wow fadeInUp animate" data-wow-delay="0.3s">
                                     <input className="form-control" placeholder="Your name" type="text"/>
                                 </div>
-                                <div className="form-group">
+                                <div className="form-group  wow fadeInUp animate" data-wow-delay="0.4s">
                                     <input className="form-control" placeholder="Your Email" type="text"/>
                                 </div>
-                                <div className="form-group">
+                                <div className="form-group wow fadeInUp animate" data-wow-delay="0.5s">
                                     <input className="form-control" placeholder="Your company name" type="text"/>
                                 </div>
 
-                                <div className="form-check form-check-inline pb-4">
+                                <div className="form-check form-check-inline pb-4 wow fadeInUp animate" data-wow-delay="0.6s">
                                     <input className="form-check-input" type="radio" name="inlineRadioOptions"
                                            id="inlineRadio1" value="option1"/>
                                     <label className="form-check-label" htmlFor="inlineRadio1">Technology
                                         Partnership</label>
                                 </div>
-                                <div className="form-check form-check-inline">
+                                <div className="form-check form-check-inline wow fadeInUp animate" data-wow-delay="0.6s">
                                     <input className="form-check-input" type="radio" name="inlineRadioOptions"
                                            id="inlineRadio2" value="option2"/>
                                     <label className="form-check-label" htmlFor="inlineRadio2">By Project</label>
                                 </div>
-                                <div className="form-group">
+                                <div className="form-group wow fadeInUp animate" data-wow-delay="0.7s">
                                     <textarea className="form-control" rows={6} placeholder="Describe Your Needs"/>
                                 </div>
-                                <p>We will contact you within 24 hours</p>
-                                <button className="btn btn-primary" type="submit">SUBMIT</button>
+                                <p className=" wow fadeInUp animate" data-wow-delay="0.7s">We will contact you within 24 hours</p>
+
+                                <div className="form-group wow fadeInUp animate" data-wow-delay="0.8s">
+                                    <button className="btn btn-primary" type="submit" >
+                                        SUBMIT
+                                    </button>
+                                </div>
 
                             </form>
                         </div>
                         <div className="col-md-6 col-sm-12 px-5">
-                            <h1>Contact Us</h1>
+                            <h1 className=" wow fadeInUp animate" data-wow-delay="0.2s">Contact Us</h1>
                             <div className="row">
-                                <div className="col-md-1">
+                                <div className="col-md-1 wow fadeInUp animate" data-wow-delay="0.3s ">
                                     <img src="https://pathmazing.com/img/icon-map.png" alt="icon"/>
                                 </div>
-                                <p className="col-md-11">Bayon Center, #33-34, Street 114, 6th Floor Sangkat Monorom,
+                                <p className="col-md-11 wow fadeInUp animate" data-wow-delay="0.4s">Bayon Center, #33-34, Street 114, 6th Floor Sangkat Monorom,
                                     Khan 7 Makara Phnom penh, Cambodia
                                 </p>
                             </div>
 
                             <div className="row">
-                                <div className="col-md-1">
+                                <div className="col-md-1 wow fadeInUp animate" data-wow-delay="0.5s">
                                     <img src="https://pathmazing.com/img/icon-phone.png" alt="icon"/>
                                 </div>
-                                <h3 className="col-md-11">+855 23 991 628 </h3>
+                                <h3 className="col-md-11 wow fadeInUp animate" data-wow-delay="0.6s">+855 23 991 628 </h3>
                             </div>
 
                             <div className="row">
-                                <div className="col-md-1">
+                                <div className="col-md-1 wow fadeInUp animate" data-wow-delay="0.7s">
                                     <img src="https://pathmazing.com/img/icon-email.png" alt="icon"/>
                                 </div>
-                                <h3 className="col-md-11">sales@pathmazing.com </h3>
+                                <h3 className="col-md-11 wow fadeInUp animate" data-wow-delay="0.8s">sales@pathmazing.com </h3>
                             </div>
-                            <div className="row contact-location">
+                            <div className="row contact-location wow fadeInUp animate" data-wow-delay="0.9s">
 
                             </div>
                         </div>
