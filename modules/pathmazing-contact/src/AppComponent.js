@@ -7,7 +7,7 @@ export default class extends React.Component {
             <section id="pathmazing-contact" className="contact-form">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-sm-12 px-5">
+                        <div className="col-sm-12 col-md-6">
                             <p className="lead wow fadeInUp animate" data-wow-delay="0.2s">
                                 Let Us Help You Realize Your Mobile and Web Solutions Today
                             </p>
@@ -46,7 +46,7 @@ export default class extends React.Component {
 
                             </form>
                         </div>
-                        <div className="col-md-6 col-sm-12 px-5">
+                        <div className=" col-sm-12 col-md-5 ml-auto">
                             <h1 className=" wow fadeInUp animate" data-wow-delay="0.2s">Contact Us</h1>
                             <div className="row">
                                 <div className="col-md-1 wow fadeInUp animate" data-wow-delay="0.3s ">
@@ -70,8 +70,8 @@ export default class extends React.Component {
                                 </div>
                                 <h3 className="col-md-11 wow fadeInUp animate" data-wow-delay="0.8s">sales@pathmazing.com </h3>
                             </div>
-                            <div className="row contact-location wow fadeInUp animate" data-wow-delay="0.9s">
-
+                            <div className="blk-map wow fadeInUp animate" data-wow-delay="0.9s">
+                                <img  class="img-responsive" src="https://pathmazing.com/img/contact/maps.png"/>
                             </div>
                         </div>
                     </div>
