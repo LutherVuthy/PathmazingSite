@@ -1,11 +1,11 @@
 #about-banner {
-  background-image: url(https://pathmazing.com/img/about/about-banner.jpg);
+  /*background-image: url(https://pathmazing.com/img/about/about-banner.jpg);*/
   background-position: center;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center top;
-  padding: 27%;
 }
+
 #about-banner .about-banner-text {
   position: absolute;
   top: 50%;
@@ -13,11 +13,9 @@
   transform: translate(-50%, -50%);
 }
 
-
 #about-banner .about-banner-text h1 {
   font-size: 46px;
-  color: white;
-/*  margin-bottom: 25px;*/
+  color: var(--white);
   font-weight: 500;
 }
 

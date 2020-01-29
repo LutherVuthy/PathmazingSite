@@ -17,8 +17,9 @@
 #pathmazing-contact .contact-location {
     margin-top: 20px;
     background-image: url("https://pathmazing.com/img/contact/maps.png");
-    width: 80%;
+    width: 90%;
     height: 50%;
+    margin: auto;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -26,4 +27,18 @@
 #pathmazing-contact .btn-primary {
     padding: 7px 45px;
     font-weight: bold;
+}
+
+.animate{
+    visibility: visible;
+    animation-delay: 0.2s;
+    animation-name: fadeInUp;"
+}
+
+.blk-map {
+    margin: auto;
+    max-width: 80%;
+    max-height: 275px;
+    overflow: hidden;
+    margin-top: 25px;
 }

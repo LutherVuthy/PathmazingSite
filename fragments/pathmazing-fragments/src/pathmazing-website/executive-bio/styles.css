@@ -17,13 +17,12 @@
 }
 
 .manage-name {
-  color: #2bafe3;
+  color: var(--primary);
   font-size: 16px;
   position: relative;
 }
 
 .manage-name{
-
   text-align: justify;
   position: relative;
   bottom: -100px;

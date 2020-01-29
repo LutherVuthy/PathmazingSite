@@ -1,17 +1,33 @@
 #pathmazing-mission {
   color: inherit;
-  padding: 60px 0;
+  padding: 3% 0;
 }
 
-
-#pathmazing-mission p {
-  font-size: 1.3em;
-  font-weight: lighter;
+.container-consulting {
+  max-width: 1170px;
+  margin: auto;
+  font-size: 19px;
 }
-
 
 #pathmazing-mission b.font-bl {
   color: var(--primary);
   font-weight: bold;
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
+  font-size: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  #pathmazing-mission {
+    padding: 3% 0;
+  }
+
+  .container-consulting {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #pathmazing-mission b.font-bl {
+    font-size: 19px;
+  }
 }
