@@ -4,9 +4,10 @@
   background-repeat: no-repeat;
   color: inherit;
   padding-bottom: 80px;
+  position: relative;
 }
 
-#home-holistic h1{
+#home-holistic h1 {
   color: white;
   text-align: center;
   font-size: 2.5em;

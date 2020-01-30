@@ -2,8 +2,10 @@
   color: inherit;
   background: #ededee;
   padding: 50px 0;
+  position: relative;
 }
 
 #partners .text-path {
   font-size: 19px;
+  padding-top: 6%;
 }
