@@ -52,6 +52,7 @@ public interface ProjectContactService extends BaseService {
 	 *
 	 * Never modify or reference this interface directly. Always use {@link ProjectContactServiceUtil} to access the project contact remote service. Add custom service methods to <code>com.pathmazing.projectcontact.service.impl.ProjectContactServiceImpl</code> and rerun ServiceBuilder to automatically copy the method declarations to this interface.
 	 */
+	@AccessControlled(guestAccessEnabled = true)
 	public ProjectContact create(
 		String name, String email, String company, String desc, String by);
 

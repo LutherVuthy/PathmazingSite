@@ -77,7 +77,7 @@ public class ProjectContactModelImpl
 		{"uuid_", Types.VARCHAR}, {"projectContactId", Types.BIGINT},
 		{"createDate", Types.TIMESTAMP}, {"modifiedDate", Types.TIMESTAMP},
 		{"clientName", Types.VARCHAR}, {"email", Types.VARCHAR},
-		{"clientCompany", Types.VARCHAR}, {"description", Types.VARCHAR},
+		{"clientCompany", Types.VARCHAR}, {"description", Types.CLOB},
 		{"cooperateBy", Types.VARCHAR}
 	};
 
@@ -92,12 +92,12 @@ public class ProjectContactModelImpl
 		TABLE_COLUMNS_MAP.put("clientName", Types.VARCHAR);
 		TABLE_COLUMNS_MAP.put("email", Types.VARCHAR);
 		TABLE_COLUMNS_MAP.put("clientCompany", Types.VARCHAR);
-		TABLE_COLUMNS_MAP.put("description", Types.VARCHAR);
+		TABLE_COLUMNS_MAP.put("description", Types.CLOB);
 		TABLE_COLUMNS_MAP.put("cooperateBy", Types.VARCHAR);
 	}
 
 	public static final String TABLE_SQL_CREATE =
-		"create table Pathmazing_ProjectContact (uuid_ VARCHAR(75) null,projectContactId LONG not null primary key,createDate DATE null,modifiedDate DATE null,clientName VARCHAR(75) null,email VARCHAR(75) null,clientCompany VARCHAR(75) null,description VARCHAR(75) null,cooperateBy VARCHAR(75) null)";
+		"create table Pathmazing_ProjectContact (uuid_ VARCHAR(75) null,projectContactId LONG not null primary key,createDate DATE null,modifiedDate DATE null,clientName VARCHAR(75) null,email VARCHAR(75) null,clientCompany VARCHAR(75) null,description TEXT null,cooperateBy VARCHAR(75) null)";
 
 	public static final String TABLE_SQL_DROP =
 		"drop table Pathmazing_ProjectContact";

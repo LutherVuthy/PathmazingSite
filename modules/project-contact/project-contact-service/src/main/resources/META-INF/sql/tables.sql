@@ -6,6 +6,6 @@ create table Pathmazing_ProjectContact (
 	clientName VARCHAR(75) null,
 	email VARCHAR(75) null,
 	clientCompany VARCHAR(75) null,
-	description VARCHAR(75) null,
+	description TEXT null,
 	cooperateBy VARCHAR(75) null
 );

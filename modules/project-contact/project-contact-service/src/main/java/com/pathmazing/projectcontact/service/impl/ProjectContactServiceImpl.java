@@ -16,6 +16,7 @@ package com.pathmazing.projectcontact.service.impl;
 
 import com.liferay.portal.aop.AopService;
 
+import com.liferay.portal.kernel.jsonwebservice.JSONWebService;
 import com.liferay.portal.kernel.security.access.control.AccessControlled;
 import com.pathmazing.projectcontact.model.ProjectContact;
 import com.pathmazing.projectcontact.service.base.ProjectContactServiceBaseImpl;
@@ -40,7 +41,8 @@ import java.util.List;
 @Component(
     property = {
         "json.web.service.context.name=pathmazing",
-        "json.web.service.context.path=ProjectContact"
+        "json.web.service.context.path=ProjectContact",
+        "auth.token.check.enabled=false"
     },
     service = AopService.class
 )
