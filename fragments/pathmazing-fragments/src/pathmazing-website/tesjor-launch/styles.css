@@ -1,13 +1,15 @@
 #tesjor-launch {
   color: inherit;
   padding: 50px 0;
+  position: relative;
+  background-color: #ffffff;
 }
 
-#tesjor-launch .box-container{
+#tesjor-launch .box-container {
   width: 75%;
   margin: 0 auto;
 }
 
-#tesjor-launch .people-say .row{
+#tesjor-launch .people-say .row {
   margin: 0 1px;
 }
