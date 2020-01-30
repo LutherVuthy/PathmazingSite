@@ -1,0 +1,1 @@
+create index IX_EDBBA329 on Pathmazing_ProjectContact (uuid_[$COLUMN_LENGTH:75$]);

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.pathmazing.projectcontact.model.ProjectContact">
+		<field name="uuid" type="String" />
+		<field name="projectContactId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="clientName" type="String" />
+		<field name="email" type="String" />
+		<field name="clientCompany" type="String" />
+		<field name="description" type="String" >
+			<hint name="max-length">2000000</hint>
+		</field>
+		<field name="cooperateBy" type="String" />
+	</model>
+</model-hints>

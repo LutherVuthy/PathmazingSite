@@ -1,0 +1,10 @@
+Bundle-Name: project-contact-api
+Bundle-SymbolicName: com.pathmazing.projectcontact.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.pathmazing.projectcontact.exception,\
+	com.pathmazing.projectcontact.model,\
+	com.pathmazing.projectcontact.service,\
+	com.pathmazing.projectcontact.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../project-contact-service/service.xml
