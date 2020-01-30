@@ -1,12 +1,12 @@
 .home-about-company {
+  position: relative;
   color: inherit;
   background: #053e59;
-  background: url("https://pathmazing.com/img/bg-section2.jpg")  no-repeat;
   background-position: bottom;
+  padding-top: 5rem;
 }
 
 #home-about-company {
-  padding-top: 86vh;
   padding-bottom: 70px;
 }
 
