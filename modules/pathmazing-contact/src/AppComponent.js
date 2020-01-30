@@ -7,7 +7,7 @@ export default class extends React.Component {
             <section id="pathmazing-contact" className="contact-form">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12 col-md-6">
+                        <div className="col-md-6">
                             <p className="lead wow fadeInUp animate" data-wow-delay="0.2s">
                                 Let Us Help You Realize Your Mobile and Web Solutions Today
                             </p>
@@ -22,14 +22,14 @@ export default class extends React.Component {
                                     <input className="form-control" placeholder="Your company name" type="text"/>
                                 </div>
 
-                                <div className="form-check form-check-inline pb-4 wow fadeInUp animate" data-wow-delay="0.6s">
+                                <div className="form-check  form-check-inline pb-4 wow fadeInUp animate" data-wow-delay="0.6s">
                                     <input className="form-check-input" type="radio" name="inlineRadioOptions"
                                            id="inlineRadio1" value="option1"/>
                                     <label className="form-check-label" htmlFor="inlineRadio1">Technology
                                         Partnership</label>
                                 </div>
                                 <div className="form-check form-check-inline wow fadeInUp animate" data-wow-delay="0.6s">
-                                    <input className="form-check-input" type="radio" name="inlineRadioOptions"
+                                    <input className="form-check-input " type="radio" name="inlineRadioOptions"
                                            id="inlineRadio2" value="option2"/>
                                     <label className="form-check-label" htmlFor="inlineRadio2">By Project</label>
                                 </div>
@@ -46,29 +46,36 @@ export default class extends React.Component {
 
                             </form>
                         </div>
-                        <div className=" col-sm-12 col-md-5 ml-auto">
+                        <div className="col-md-6 pl-4">
                             <h1 className=" wow fadeInUp animate" data-wow-delay="0.2s">Contact Us</h1>
                             <div className="row">
-                                <div className="col-md-1 wow fadeInUp animate" data-wow-delay="0.3s ">
+                                <div className="col-xs-1 col-sm-1 col-md-1 wow fadeInUp animate" data-wow-delay="0.3s ">
                                     <img src="https://pathmazing.com/img/icon-map.png" alt="icon"/>
                                 </div>
-                                <p className="col-md-11 wow fadeInUp animate" data-wow-delay="0.4s">Bayon Center, #33-34, Street 114, 6th Floor Sangkat Monorom,
-                                    Khan 7 Makara Phnom penh, Cambodia
-                                </p>
+                                <div className="col-xs-11 col-sm-11 col-md-11 wow fadeInUp animate" data-wow-delay="0.4s" >
+                                    <p>Bayon Center, #33-34, Street 114, 6th Floor Sangkat Monorom,
+                                        Khan 7 Makara Phnom penh, Cambodia
+                                    </p>
+                                </div>
                             </div>
 
                             <div className="row">
-                                <div className="col-md-1 wow fadeInUp animate" data-wow-delay="0.5s">
+                                <div className="col-xs-1 col-sm-1 col-md-1 wow fadeInUp animate" data-wow-delay="0.5s">
                                     <img src="https://pathmazing.com/img/icon-phone.png" alt="icon"/>
                                 </div>
-                                <h3 className="col-md-11 wow fadeInUp animate" data-wow-delay="0.6s">+855 23 991 628 </h3>
+                                <div className=" col-xs-11 col-sm-11 col-md-11 wow fadeInUp animate" data-wow-delay="0.6s">
+                                    <h3>+855 23 991 628 </h3>
+                                </div>
                             </div>
 
                             <div className="row">
-                                <div className="col-md-1 wow fadeInUp animate" data-wow-delay="0.7s">
+                                <div className="col-xs-1 col-sm-1 col-md-1 wow fadeInUp animate" data-wow-delay="0.7s">
                                     <img src="https://pathmazing.com/img/icon-email.png" alt="icon"/>
                                 </div>
-                                <h3 className="col-md-11 wow fadeInUp animate" data-wow-delay="0.8s">sales@pathmazing.com </h3>
+                                <div className="col-xs-11 col-sm-11 col-md-11 wow fadeInUp animate" data-wow-delay="0.8s">
+                                    <h3 >sales@pathmazing.com </h3>
+                                </div>
+
                             </div>
                             <div className="blk-map wow fadeInUp animate" data-wow-delay="0.9s">
                                 <img  class="img-responsive" src="https://pathmazing.com/img/contact/maps.png"/>
@@ -80,3 +87,5 @@ export default class extends React.Component {
         );
     }
 }
+
+

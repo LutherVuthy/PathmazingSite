@@ -41,7 +41,7 @@
 			</li>
 		</#list>
 	</ul>-->
-	<div class="navigation-list-container" aria-label="<@liferay.language key="site-pages" />" role="menubar">
+	<div class="navigation-list-container" id="navigation-list-container" aria-label="<@liferay.language key="site-pages" />" role="menubar">
 		<#list nav_items as nav_item>
 			<#assign
 			nav_item_attr_has_popup = ""
@@ -54,7 +54,7 @@
 				nav_item_css_class = "selected"
 				/>
 			</#if>
-			<div class="${nav_item_css_class}" id="layout_${nav_item.getLayoutId()}" role="presentation" style="padding-left: 24px;">
+			<div class="${nav_item_css_class}" id="layout_${nav_item.getLayoutId()}" role="presentation" style="padding-left: 16px;">
 				<a aria-labelledby="layout_${nav_item.getLayoutId()}" ${nav_item_attr_has_popup} href="${nav_item.getURL()}" ${nav_item.getTarget()} role="menuitem"><span id="nav-items"><@liferay_theme["layout-icon"] layout=nav_item_layout /> ${nav_item.getName()}</span></a>
 				<#if nav_item.hasChildren()>
 					<div class="child-menu" role="menu">

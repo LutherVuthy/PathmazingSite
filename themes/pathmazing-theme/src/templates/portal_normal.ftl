@@ -22,9 +22,13 @@
 
 <div class="container-fluid" id="wrapper">
 	<header id="banner" role="banner">
-		<#assign current_page = "${the_title}"/>
+		<#assign
+			current_page = "${the_title}"
+		/>
 		<#if current_page == "Home">
-			<#assign header_container = "heading-home"/>
+			<#assign
+				header_container = "heading-home"
+			/>
 		<#else>
 			<#assign
 				header_container = "heading"
