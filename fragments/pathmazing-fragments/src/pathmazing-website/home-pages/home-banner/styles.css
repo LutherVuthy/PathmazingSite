@@ -10,6 +10,10 @@
   height: 80vh;
 }
 
+.has-edit-mode-menu #slideshow {
+  position: relative !important;
+}
+
 .blk-slid #slideshow {
   margin: auto;
   position: fixed;
