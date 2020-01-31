@@ -1,0 +1,17 @@
+@import "navigation/manage_controls";
+@import "navigation/navbar";
+@import "navigation/page";
+@import "navigation/portlet";
+@import "navigation/template_selector";
+
+#navigation-items-container{
+  display: flex;
+  flex-direction: row;
+}
+#navigation-items{
+  color: $primary-text-color;
+  font-size: 18px;
+  &:hover{
+    text-decoration: none;
+  }
+}
