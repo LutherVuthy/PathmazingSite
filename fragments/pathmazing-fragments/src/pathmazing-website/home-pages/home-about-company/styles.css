@@ -1,0 +1,53 @@
+.home-about-company {
+  position: relative;
+  color: inherit;
+  background-image: url("https://pathmazing.com/img/bg-section2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem 0;
+}
+
+.company-stat img {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+}
+
+#home-about-company .pathmazing-service h2 {
+  color: #fff;
+  font-size: 34px;
+  padding: 3rem 0.5rem;
+  font-weight: 500;
+  width: 85%;
+  margin: auto;
+  font-weight: lighter;
+}
+
+#home-about-company .service-item {
+  padding: 16px;
+}
+
+#home-about-company .service-item img {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #home-about-company .pathmazing-service h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #home-about-company .service-item img {
+    max-width: 270px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .company-stat img {
+    max-width: 220px;
+  }
+}
