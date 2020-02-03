@@ -1,0 +1,230 @@
+#section-home {
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.blk-slid {
+  max-width: 100%;
+  position: relative;
+  height: 80vh;
+}
+
+.has-edit-mode-menu #slideshow {
+  position: relative !important;
+}
+
+.blk-slid #slideshow {
+  margin: auto;
+  position: fixed;
+  max-width: 100%;
+  height: 100%;
+  background: #05415d;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.blk-slid #slideshow div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.add-img5 {
+  background: #05415d url("https://pathmazing.com/img/home-banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  width: 100%;
+}
+
+.add-img4 {
+  background: #05415d url("https://pathmazing.com/img/bg-home1-new.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  max-width: 100%;
+  width: 100%;
+}
+
+.add-img3 {
+  background: #05415d url("https://pathmazing.com/img/bg-home2-new.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  max-width: 100%;
+  width: 100%;
+}
+
+.add-img2 {
+  background: #05415d url("https://pathmazing.com/img/bg-home3-new.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  max-width: 100%;
+  width: 100%;
+}
+
+.add-img1 {
+  background: #05415d url("https://pathmazing.com/img/home-banner.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  max-width: 100%;
+  width: 100%;
+}
+
+.blk-bgCol {
+  background: linear-gradient(
+    to bottom,
+    rgba(8, 8, 8, 0.01),
+    rgba(5, 61, 86, 0.61),
+    #053e59
+  );
+  width: 100%;
+  padding: 30px 0 5%;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  color: #fff;
+  z-index: 0;
+}
+
+.blk-text {
+  width: 54%;
+  color: #fff;
+  margin: auto;
+}
+
+.blk-text h1 {
+  line-height: initial;
+  font-weight: bold;
+  font-size: 34px;
+  text-shadow: 0 0 8px rgba(8, 8, 8, 0.57);
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1600px) {
+  .blk-text {
+    width: 60%;
+  }
+
+  .blk-text h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  #section-home .blk-slid {
+    height: 70vh;
+  }
+
+  .blk-bgCol {
+    padding: 30px 0 2%;
+  }
+
+  .blk-text {
+    width: 72%;
+  }
+
+  .blk-text h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .blk-text {
+    width: 58%;
+  }
+
+  .blk-text h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .blk-text {
+    width: 80%;
+  }
+
+  .blk-text h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #section-home .blk-slid {
+    height: 63vh;
+  }
+
+  .add-img1 {
+    background: #05415d url("https://pathmazing.com/img/mobile-v-3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .add-img2 {
+    background: #05415d url("https://pathmazing.com/img/mobile-v-4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .add-img3 {
+    background: #05415d url("https://pathmazing.com/img/mobile-v-2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .add-img4 {
+    background: #05415d url("https://pathmazing.com/img/mobile-v-1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .add-img5 {
+    background: #05415d url("https://pathmazing.com/img/mobile-bg-home2old.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .blk-bgCol {
+    bottom: -3px;
+    padding: 20px 0;
+  }
+
+  .blk-text {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blk-text {
+    width: 100%;
+  }
+
+  .blk-text h1 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #section-home .blk-slid {
+    height: 52vh;
+  }
+
+  .blk-bgCol {
+    bottom: -22px;
+  }
+
+  .blk-text h1 {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+}

@@ -1,5 +1,6 @@
 .home-award {
   color: inherit;
+  position: relative;
 }
 
 #home-award {
@@ -8,14 +9,36 @@
   padding: 60px 0;
 }
 
-#home-award h1{
+#home-award h1 {
   font-size: 4em;
 }
 
-#home-award p{
+#home-award p {
   font-size: 2em;
 }
 
-#home-award .award-content{
+#home-award .award-content {
   padding: 10px 0 0 110px;
+}
+
+.award-content > div {
+  font-size: 34px;
+}
+
+@media only screen and (max-width: 767px) {
+  #home-award .award-content {
+    padding: 10px 0 0 30px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .award-content > div {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .award-content > div {
+    font-size: 14px;
+  }
 }

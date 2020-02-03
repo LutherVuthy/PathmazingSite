@@ -12,7 +12,7 @@
 	<@liferay_util["include"] page=top_head_include />
 </head>
 
-<body class="${css_class}">
+<body class="${css_class}" id="page-body">
 
 <@liferay_ui["quick-access"] contentId="#main-content" />
 
@@ -35,10 +35,12 @@
 			/>
 		</#if>
 		<div id="${header_container}" class="${header_container}">
-			<div class="site-title">
-				<a class="${logo_css_class} dis-dt" id="site-logo-container" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
-					<img id="site-logo" alt="${logo_description}" height="${site_logo_height}" src="${pathmazing_site_log_desktop}" width="${site_logo_width}" />
-				</a>
+			<div class="site-title" id="site-title-and-logo-container">
+				<div>
+					<a class="${logo_css_class} dis-dt" id="site-logo-container" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
+						<img id="site-logo" alt="${logo_description}" height="${site_logo_height}" src="${pathmazing_site_log_desktop}" width="${site_logo_width}" />
+					</a>
+				</div>
 				<#--<a class="${logo_css_class} dis-mobile" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
 					<img alt="${logo_description}" height="${site_logo_height}" src="${pathmazing_site_log}" width="${site_logo_width}" />
 				</a>-->
@@ -48,8 +50,15 @@
 						${site_name}
 					</span>
 				</#if>-->
+				<div id="button-show-nav-items-container">
+					<a id="show-items" onclick="displayNavigationItemsOnSmallDevice()">
+						<@clay["icon"] symbol="bars" />
+					</a>
+					<#--<h6 style="color: white" id="show-items" onclick="showItems()">Click Here</h6>-->
+					<#--<button id="show-items" type="button" value="Show" style="width: 42px; height: 32px" onclick="showItems()"></button>-->
+				</div>
 			</div>
-            <div class="navigation-container">
+            <div class="navigation-container" id="navigation-container">
                 <#if has_navigation && is_setup_complete>
                     <#include "${full_templates_path}/navigation.ftl" />
                 </#if>

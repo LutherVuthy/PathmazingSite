@@ -13,26 +13,7 @@ export default function AppComponent(props) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        Liferay.Service(
-            '/pathmazing.projectcontact/create',
-            {
-                p_auth: "3MfbMDcM",
-                name: name,
-                email: email,
-                company: company,
-                desc: des,
-                by: by
-            },
-            function (obj) {
-                setToastItems([...toastItems, Math.random() * 100]);
-                console.log(obj);
-                setName("");
-                setEmail("");
-                setCompany("");
-                setDesc("");
-                setBy("Technology Partnership")
-            }
-        );
+        setToastItems([...toastItems, Math.random() * 100]);
     };
 
     return (

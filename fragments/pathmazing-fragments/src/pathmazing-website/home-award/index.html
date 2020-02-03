@@ -1,13 +1,27 @@
 <div id="home-award" class="home-award">
   <div class="container">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-md-3">
-        <img class="img-responsive" src="https://pathmazing.com/img/cicta17-award.png" alt="">
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="col-md-4">
+        <lfr-editable id="home-award-image" type="image">
+          <img
+            class="img-responsive"
+            src="https://pathmazing.com/img/cicta17-award.png"
+            alt=""
+          />
+        </lfr-editable>
       </div>
-      <div class="col-md-9 text-white award-content">
-          <h1>Tesjor</h1>
-          <p>Won the Best Product in Private Sector Cambodia's ICT Awards 2017</p>
+      <div class="col-md-7 text-white award-content">
+        <h1>
+          <lfr-editable id="home-award-title" type="text">
+            Tesjor
+          </lfr-editable>
+        </h1>
+        <div class="home-award-content"></div>
+          <lfr-editable id="home-award-content" type="text">
+            Won the Best Product in Private Sector Cambodia's ICT Awards 2017
+          </lfr-editable>
         </div>
+      </div>
     </div>
   </div>
 </div>
