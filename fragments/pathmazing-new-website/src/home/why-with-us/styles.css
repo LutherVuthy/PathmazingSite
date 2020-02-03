@@ -1,0 +1,41 @@
+#why-with-us {
+  color: inherit;
+  position: relative;
+}
+.banner {
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAACXBIW…RBVHgB7cxBEQAACAIwtH8Pzw52kxD8OBZgNXsPQUOUwCIgAz0DHTyygaAAAAAASUVORK5CYII=);
+  background-size: contain !important;
+  background-position: center;
+  background-position-y: top;
+  background-repeat-x: no-repeat;
+  padding: 3%;
+}
+.text-title{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-contain{
+  margin: 5% 0 0 6%;
+  padding-bottom: 5%;
+}
+.dot{
+  margin-top: 1%;
+  width: 4px;
+  height: 21px;
+  background-color: #00aeef;
+}
+
+.pl-4 h2{
+  font-size: 30px;
+  color: #00aeef;
+}
+
+@media only screen and (max-width: 767px){
+  .pl-4 h2{
+    font-size: 19px;
+    color: #00aeef;
+  }
+}
+

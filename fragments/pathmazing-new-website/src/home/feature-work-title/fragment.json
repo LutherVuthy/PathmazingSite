@@ -3,7 +3,6 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "test fragment",
-  "type": "section"
+  "name": "Feature Work Title",
+  "type": "component"
 }
-
