@@ -1,0 +1,13 @@
+.feature-works-content {
+  color: inherit;
+}
+#feature-work-image-container {
+  text-align: end;
+}
+#feature-work-text-content-container {
+  text-align: start;
+}
+#feature-work-text-content {
+  font-size: 16px;
+  font-weight: bold;
+}
