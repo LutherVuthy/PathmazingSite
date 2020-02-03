@@ -41,18 +41,27 @@ body{
     margin-left: 10%;
     margin-top: 16px;
     background-color: rgba($nav_background_color, 0.9);
-    border-radius: 16px;
+    border-radius: 5px;
     position: fixed;
     opacity: 1.0;
     justify-content: space-between;
   }
   .site-title #site-logo-container img{
-    width: 320px;
-    height: 50px;
+    width: 200px;
+    height: auto;
   }
-
   div #wrapper{
     margin: 0;
     padding: 0;
+  }
+  #site-logo-and-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    //max-width: 30%;
+  }
+  #button-show-nav-items-container {
+    display: none;
   }
 }

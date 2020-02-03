@@ -22,13 +22,18 @@
 
 <div class="container-fluid" id="wrapper">
 	<header id="banner" role="banner">
-		<div id="heading">
-			<div class="site-title">
+		<div id="heading" class="row">
+			<div class="site-title col-sm" id="site-logo-and-title-container">
                 <a id="site-logo-container" class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
-                    <img alt="${logo_description}" height="${site_logo_height}" src="${pathmazing_site_log_desktop}" width="${site_logo_width}"/>
+                    <img class="img-fluid" alt="${logo_description}" height="${site_logo_height}" src="${pathmazing_site_log_desktop}" width="${site_logo_width}"/>
                 </a>
+				<div id="button-show-nav-items-container">
+					<a id="show-items" onclick="displayNavigationItemsOnSmallDevice()">
+						<@clay["icon"] symbol="bars" />
+					</a>
+				</div>
 			</div>
-			<div id="navigation-item-container">
+			<div id="navigation-item-container" class="col-sm">
 				<#if has_navigation && is_setup_complete>
 					<#include "${full_templates_path}/navigation.ftl" />
 				</#if>
