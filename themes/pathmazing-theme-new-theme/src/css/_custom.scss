@@ -1,0 +1,58 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+@import "_color";
+@import "_navigation";
+
+body{
+  padding: 0;
+  margin: 0;
+  /*#wrapper #banner{
+    padding: 16px 10% 0 10%;
+    position: relative;
+  }*/
+  #wrapper #banner #heading{
+    transition-property: height, padding, width, margin-left;
+    -moz-transition-property: height, padding, width, margin-left; /* Firefox 4 */
+    -webkit-transition-property: height, padding, width, margin-left; /* Safari and Chrome */
+    -o-transition-property: height, padding, width, margin-left; /* Opera */
+
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s; /* Firefox 4 */
+    -webkit-transition-duration: 0.3s; /* Safari and Chrome */
+    -o-transition-duration: 0.3s; /* Opera */
+
+    transition-timing-function: cubic-bezier(0.42,0,0.58,1);
+    -moz-transition-timing-function: cubic-bezier(0.42,0,0.58,1); /* Firefox 4 */
+    -webkit-transition-timing-function: cubic-bezier(0.42,0,0.58,1); /* Safari and Chrome */
+    -o-transition-timing-function: cubic-bezier(0.42,0,0.58,1); /* Opera */
+  }
+  #wrapper #banner #heading{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 16px;
+    align-items: baseline;
+    z-index: 999;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 16px;
+    background-color: rgba($nav_background_color, 0.9);
+    border-radius: 16px;
+    position: fixed;
+    opacity: 1.0;
+    justify-content: space-between;
+  }
+  .site-title #site-logo-container img{
+    width: 320px;
+    height: 50px;
+  }
+
+  div #wrapper{
+    margin: 0;
+    padding: 0;
+  }
+}
